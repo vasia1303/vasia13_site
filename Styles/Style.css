@@ -1,40 +1,12 @@
-* {
-    margin: 5px: auto;
-    padding: 4px;
-    font-size: 16px;
-}
-
-.em { font-size: 1.0em}
-.rem { font-size: 1.0rem}
-.parent {font-size:25px}
-
-body {
-    background-color: white;
-    background-repeat: no-repeat;
-    background-position-y: 0%;
-    background-position-x: 100%;
-    background-size: 10%;
-}
-
 p {
-    background: yellow-green;
+  color: red;
+  width: 100 px;
+  border: 1px solid black;
+  padding: 4 px
 }
-
-p:first-line {
-    background: light-blue;
-}
-
-p font:first-child {
-    color: red;
-    font-weight: bold;
-}
-
-a:link {
-    color: black;
-    text-decoration: none;
-}
-
-a:visited {
-    color: green;
-    text-decoration: none;
+li {
+  color: darkgreen;
+  width: 100 px;
+  border: 1px solid black;
+  padding: 4 px
 }
